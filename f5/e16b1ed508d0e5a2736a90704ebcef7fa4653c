@@ -1,0 +1,19 @@
+README.md
+  s_98d1b7b529c8d4::t_1f1fb4a7434667 2-209
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f5e16b1ed508d0e5a2736a90704ebcef7fa4653c",
+  "prompts": {},
+  "sessions": {
+    "s_98d1b7b529c8d4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1cd49-65c1-7783-8f3d-38b7d819e4c4",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "周康 <1412873631@qq.com>"
+    }
+  }
+}
