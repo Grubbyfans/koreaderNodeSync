@@ -1,0 +1,2 @@
+# koreaderNodeSync
+基于node搭建的koreader进度同步服务器
