@@ -1,0 +1,13 @@
+node_modules/
+dist/
+data/
+
+# WorkBuddy 本机 Agent 工作记录（非项目产物，避免提交个人笔记）
+.workbuddy/
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.local
+*.log
+.DS_Store

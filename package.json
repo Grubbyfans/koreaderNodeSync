@@ -1,0 +1,26 @@
+{
+  "name": "koreader-node-sync",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "局域网 KOReader 阅读进度同步服务（兼容原生 KOSync 插件）",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
+    "start": "node --disable-warning=ExperimentalWarning dist/server.js",
+    "test": "tsx --test tests/*.test.ts",
+    "verify:protocol": "node scripts/verify-protocol.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
